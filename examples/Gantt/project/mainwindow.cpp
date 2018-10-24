@@ -34,8 +34,8 @@
 #include <QDebug>
 #include <QBrush>
 #include <QPainter>
-#include <QPrinter>
-#include <QPrintDialog>
+#include <QtPrintSupport/QPrinter>
+#include <QtPrintSupport/QPrintDialog>
 #include <QFileDialog>
 #include <QLabel>
 #include <QGridLayout>

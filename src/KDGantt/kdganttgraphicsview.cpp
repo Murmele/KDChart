@@ -32,7 +32,7 @@
 #include <QResizeEvent>
 #include <QScrollBar>
 #include <QAbstractProxyModel>
-#include <QPrinter>
+#include <QtPrintSupport/QPrinter>
 
 #include <cassert>
 

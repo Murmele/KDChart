@@ -31,8 +31,8 @@
 #include <QPainter>
 #include <QPixmapCache>
 #include <QPushButton>
-#include <QPrinter>
-#include <QPrintDialog>
+#include <QtPrintSupport/QPrinter>
+#include <QtPrintSupport/QPrintDialog>
 #include <QMenu>
 
 #include <KDGanttView>

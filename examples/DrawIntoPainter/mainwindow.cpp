@@ -38,7 +38,7 @@
 #include <QDebug>
 #include <QPainter>
 #include <QFileDialog>
-#include <QPrinter>
+#include <QtPrintSupport/QPrinter>
 
 using namespace KDChart;
 

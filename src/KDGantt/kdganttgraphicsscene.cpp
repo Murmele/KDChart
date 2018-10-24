@@ -33,7 +33,7 @@
 #include <QApplication>
 #include <QGraphicsSceneHelpEvent>
 #include <QPainter>
-#include <QPrinter>
+#include <QtPrintSupport/QPrinter>
 #include <QTextDocument>
 #include <QToolTip>
 #include <QSet>

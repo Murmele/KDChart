@@ -17,6 +17,7 @@ DEFINES += KDCHART_BUILD_KDCHART_LIB
 RESOURCES += KDChart/KDAB_kdchart_LeveyJennings_resources.qrc
 
 QT += svg
+QT += printsupport
 
 contains(QT_VERSION, ^5\\.[0-9]\\..*): QT += printsupport
 
