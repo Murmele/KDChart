@@ -258,7 +258,7 @@ fi
 
 QMAKE_ARGS="$QMAKE_ARGS VERSION=$VERSION"
 QMAKE_ARGS="$QMAKE_ARGS CONFIG+=${product}_target"
-
+QMAKE_ARGS="$QMAKE_ARGS CONFIG+=c++11"
 if [ "$debug" = "yes" ]; then
     QMAKE_ARGS="$QMAKE_ARGS CONFIG-=release CONFIG+=debug CONFIG-=debug_and_release"
 fi
