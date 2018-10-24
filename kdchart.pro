@@ -20,6 +20,7 @@ isEmpty(QT_VERSION) {
     error("ERROR: qmake from Qt3 detected. Please use qmake from Qt4!")
 }
 
+QT += printsupport
 
 unix:DEFAULT_INSTALL_PREFIX = /usr/local/KDAB/KDChart-$$VERSION
 win32:DEFAULT_INSTALL_PREFIX = "C:\KDAB\KDChart"-$$VERSION
